@@ -4,7 +4,7 @@ import plotly_express as px
 
 car_data_py = pd.read_csv(
     # leer los datos
-    'C:/Users/Acer/OneDrive/Desktop/Gabi/python/sprint_7/vehicles_us/vehicles_us.csv')
+    'vehicles_us.csv')
 
 # primer encabezado, del histograma
 st.header('Crear histograma')
